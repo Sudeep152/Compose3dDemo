@@ -1,16 +1,17 @@
 # Compose3dDemo
 
 ## Overview
-Compose3dDemo is an Android project that integrates 3D models within a Jetpack Compose environment, utilizing the SceneView library to render 3D content. This demo focuses on displaying, interacting with, and scaling 3D models with smooth centering. It highlights the combination of Jetpack Compose and SceneView for advanced UI/UX in mobile apps.
+Compose3dDemo is an Android project that demonstrates the integration of 3D models within a Jetpack Compose environment using the SceneView library. The project provides an interactive 3D experience where users can view, scale, and interact with models stored locally in the app’s asset folder. This project highlights the potential of 3D model rendering in mobile apps with Compose.
 
 ## Features
-- **3D Model Display**: Renders 3D models seamlessly within a Jetpack Compose-based UI.
-- **Scalable 3D Models**: Enables users to zoom in/out while keeping models centered.
-- **SceneView Integration**: Leverages SceneView for intuitive 3D handling, making it compatible with Compose.
+- **Custom 3D Model Display**: Loads `.glb` models from the local assets folder for offline 3D rendering.
+- **Interactive Model Control**: Users can interact with the model through gestures for scaling, ensuring a centered view even as the model is manipulated.
+- **Configurable Scene**: Adjustable parameters for camera position, model scale, background color, and environment background.
+- **Composable Design**: Built entirely within Jetpack Compose for a modern, declarative UI experience.
 
 ## Technologies Used
-- **Jetpack Compose**: To build responsive and declarative UI components.
-- **SceneView**: For rendering and managing 3D model interactions.
+- **Jetpack Compose**: For a declarative UI.
+- **SceneView**: To render and interact with 3D models.
 - **Kotlin**: Primary language for development.
 
 ## Getting Started
@@ -24,3 +25,4 @@ Compose3dDemo is an Android project that integrates 3D models within a Jetpack C
 1. Clone the repository:
    ```bash
    git clone https://github.com/Sudeep152/Compose3dDemo.git
+
