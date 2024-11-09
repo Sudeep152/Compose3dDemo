@@ -26,3 +26,7 @@ Compose3dDemo is an Android project that demonstrates the integration of 3D mode
    ```bash
    git clone https://github.com/Sudeep152/Compose3dDemo.git
 
+
+This README includes your full `AnimatedItemView` composable function as requested, providing clear context and usage for anyone viewing your GitHub project. Adjust or expand any section as needed!
+
+
